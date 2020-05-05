@@ -1,0 +1,14 @@
+(library
+  (name structures)
+  (libraries testlib)
+  (modules Assoc Matrix))
+
+(library
+  (name boulder_dash)
+  (libraries testlib structures)
+  (modules Drawing Game Parse Type))
+
+(executable
+ (name main)
+ (modules Main)
+ (libraries graphics unix boulder_dash))
