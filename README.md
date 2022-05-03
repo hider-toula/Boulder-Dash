@@ -1,3 +1,2 @@
 # Boulder-Dash
-
-## summuray
+Ce projet consiste à développer un jeu 2D en langage OCaml.
